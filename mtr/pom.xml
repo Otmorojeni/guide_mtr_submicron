@@ -78,7 +78,7 @@
                 <version>0.0.8</version>
                 <configuration>
                     <!-- Путь к вашему главному классу запуска приложения -->
-                    <mainClass>com.guide.App</mainClass>
+                    <mainClass>com.guide.Main</mainClass>
                 </configuration>
         </plugin>
       </plugins>
