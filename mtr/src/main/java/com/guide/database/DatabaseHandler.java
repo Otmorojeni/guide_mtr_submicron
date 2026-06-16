@@ -11,7 +11,7 @@ public class DatabaseHandler {
     private static final String USER = "postgres";
     private static final String PASSWORD = "123";
 
-    private static Connection getConnection () throws SQLException {
+    public static Connection getConnection () throws SQLException {
         // Подключение к БД
         return DriverManager.getConnection(URL, USER, PASSWORD);
     }
