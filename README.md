@@ -54,6 +54,7 @@
       ▲
       │ (1:N)
 [mtr_material] ◀───(1:1)───▶ [mtr_himmaterproperty]
+```text
 
 ---
 
