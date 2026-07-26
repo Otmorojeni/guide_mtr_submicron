@@ -87,21 +87,21 @@ src/main/java/com/guide/
 Создайте схему dbsubmicron и соответствующие таблицы.
 
 При рассинхронизации счетчиков первичных ключей (SERIAL) выполните команду выравнивания последовательности:
-
+```text
 SELECT setval('dbsubmicron.mtr_material_id_seq', (SELECT MAX(id) FROM dbsubmicron.mtr_material));
-
+```
 2. Конфигурация подключения
 Укажите параметры доступа к вашей СУБД в файле src/main/java/com/guide/database/DatabaseHandler.java:
-
+```text
 private static final String URL = "jdbc:postgresql://localhost:5432/имя_вашей_базы";
 private static final String USER = "postgres";
 private static final String PASSWORD = "ваш_пароль";
-
+```
 3. Сборка и запуск через Maven
 Из корневой папки проекта выполните команду:
-
+```text
 mvn clean compile javafx:run
-
+```
 ---
 
 ## 🛠️ Технические особенности реализации (Для защиты проекта)
