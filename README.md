@@ -54,12 +54,13 @@
       ▲
       │ (1:N)
 [mtr_material] ◀───(1:1)───▶ [mtr_himmaterproperty]
-```text
+```
 
 ---
 
 ## 📁 Структура исходного кода
 
+```text
 src/main/java/com/guide/
 │
 ├── database/
@@ -76,7 +77,7 @@ src/main/java/com/guide/
 │
 └── views/
     └── MainStage.java           # GUI-слой: Верстка JavaFX (SplitPane, TreeView, GridPane)
-
+```
 ---
 
 ## 🚀 Инструкция по запуску и настройке
